@@ -33,7 +33,7 @@ If you find any bugs, please fix them.
 
 ### To run project
 1. npm install
-2. npm chai
+2. npm i chai
 3. If you find any issues with (import dayjs from 'dayjs';) then change import to (import * as dayjs from 'dayjs';). 
 
 Then it should work fine.
