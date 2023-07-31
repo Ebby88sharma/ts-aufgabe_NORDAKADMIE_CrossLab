@@ -1,0 +1,26 @@
+{
+  "name": "ts-aufgabe",
+  "version": "1.0.0",
+  "description": "Small test",
+  "main": "example_use.ts",
+  "scripts": {
+    "test": "npm run build && npx mocha build/*_test.js",
+    "build": "npx tsc",
+    "example": "npm run build && node build/example_use.js",
+    "worktest": "npm run build && node build/work.js"
+  },
+  "author": "NORDAKADEMIE",
+  "license": "All rights reserved",
+  "dependencies": {
+    "@types/node": "^20.4.1",
+    "chai": "^4.3.7",
+    "dayjs": "^1.11.9",
+    "get-random-values": "^2.1.0",
+    "mysql2": "^2.3.3",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "mocha": "^10.2.0"
+  }
+}
